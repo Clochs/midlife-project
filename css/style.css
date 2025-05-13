@@ -50,6 +50,18 @@ p {
 
 main {
   border: 2px solid white;
+  align-items: center;
+}
+
+#article-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#article-section > section {
+  border: 1px solid white;
+  flex: 1 1 45%;
 }
 
 nav {
